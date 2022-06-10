@@ -8,4 +8,4 @@ Kelompok 3 Anggota Kelompok :
 
 3. Satria Pengukir (56418546)
 
-Link Website : uts-sismul.vercel.app
+Link Website : https://uts-sismul.vercel.app
