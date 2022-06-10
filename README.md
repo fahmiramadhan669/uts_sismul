@@ -7,3 +7,5 @@ Kelompok 3 Anggota Kelompok :
 2. M Rauf Abiyyunanda (54418843)
 
 3. Satria Pengukir (56418546)
+
+Link Website : uts-sismul.vercel.app
