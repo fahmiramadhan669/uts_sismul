@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Home - UTS</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="teal lighten-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Home</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="foto.html">Foto</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="foto.html">Foto</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div class="parallax-container">
+    <div class="parallax"><img src="img/parallax/multimedia1.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header center teal-text text-darken-1">UTS Sistem Multimedia</h2>
+      <div class="row center">
+        <h6 class="header col s12 light">Dibuat guna memenuhi tugas ujian tengah semester (UTS) mata kuliah Sistem Multimedia.</h6>
+      </div>
+    </div>
+    <div class="row center">
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1">Penjelasan Singkat Sistem Multimedia</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+              <div class="modal-content">
+                <h4>Sistem Multimedia</h4>
+                <p>Multimedia adalah penggunaan komputer untuk menyajikan dan menggabungkan teks, suara, gambar, animasi dan video 
+                  dengan alat bantu (tool) dan koneksi (link) sehingga pengguna dapat bernavigasi, berinteraksi, berkarya dan berkomunikasi (Hofstetter 2001).</p>
+                  <p>Untuk Melihat contoh dari multimedia itu sendiri dapat mengklik bagian foto dan video pada navbar.</p>
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+              </div>
+            </div>
+    </div>
+  </div>  
+
+  <footer class="page-footer teal darken-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Anggota Kelompok : </h5>
+          <ul>
+            <li>Fahmi Ramadhan</li>
+            <li>M Rauf Abiyyunanda</li>
+            <li>Satria Pengukir</li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Dibuat Oleh Kelompok 3 
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+      $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+
+      $(document).ready(function(){
+      $('.modal').modal();
+    });
+  </script>
+      
+  </body>
+</html>
